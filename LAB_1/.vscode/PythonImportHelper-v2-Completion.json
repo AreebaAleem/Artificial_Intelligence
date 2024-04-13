@@ -1,0 +1,92 @@
+[
+    {
+        "label": "factorial",
+        "kind": 2,
+        "importPath": "factorial",
+        "description": "factorial",
+        "peekOfCode": "def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n - 1)\nnum = int(input(\"Enter number: \"))\nif num < 0:\n    print(\"No Factorial of negative number\")\nelse:\n    result = factorial(num)",
+        "detail": "factorial",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "factorial",
+        "description": "factorial",
+        "peekOfCode": "num = int(input(\"Enter number: \"))\nif num < 0:\n    print(\"No Factorial of negative number\")\nelse:\n    result = factorial(num)\n    print(f\"The factorial of {num} is {result}\")",
+        "detail": "factorial",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "input_added_sum",
+        "description": "input_added_sum",
+        "peekOfCode": "num = int(input(\"Enter the number: \"))\nsum = 0\nfor i in range(num):\n        inp = float(input(f\"Enter value {i + 1}: \"))\n        sum += inp\nprint(f\"The sum of the {num} numbers is: {sum}\")",
+        "detail": "input_added_sum",
+        "documentation": {}
+    },
+    {
+        "label": "sum",
+        "kind": 5,
+        "importPath": "input_added_sum",
+        "description": "input_added_sum",
+        "peekOfCode": "sum = 0\nfor i in range(num):\n        inp = float(input(f\"Enter value {i + 1}: \"))\n        sum += inp\nprint(f\"The sum of the {num} numbers is: {sum}\")",
+        "detail": "input_added_sum",
+        "documentation": {}
+    },
+    {
+        "label": "marks",
+        "kind": 5,
+        "importPath": "marks_grades",
+        "description": "marks_grades",
+        "peekOfCode": "marks = int(input(\"Enter marks: \"))\nif marks < 50:\n    grade = \"F\"\nelif marks <= 60:\n    grade = \"E\"\nelif marks <= 70:\n    grade = \"D\"\nelif marks <= 80:\n    grade = \"C\"\nelif marks <= 90:",
+        "detail": "marks_grades",
+        "documentation": {}
+    },
+    {
+        "label": "prime",
+        "kind": 2,
+        "importPath": "primenum",
+        "description": "primenum",
+        "peekOfCode": "def prime(number):\n    if num <= 1:\n        return False\n    if num <= 3:\n        return True\n    if num % 2 == 0 or num % 3 == 0:\n        return False\n    i = 5\n    while i * i <= num:\n        if num % i == 0 or num % (i + 2) == 0:",
+        "detail": "primenum",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "primenum",
+        "description": "primenum",
+        "peekOfCode": "num = int(input(\"Enter a number: \"))\nif prime(num):\n    print(f\"{num} is a prime number\")\nelse:\n    print(f\"{num} is not a prime number\")",
+        "detail": "primenum",
+        "documentation": {}
+    },
+    {
+        "label": "inp",
+        "kind": 5,
+        "importPath": "printinput",
+        "description": "printinput",
+        "peekOfCode": "inp = input(\"Input: \")\nprint(\"Result:\", inp)",
+        "detail": "printinput",
+        "documentation": {}
+    },
+    {
+        "label": "string_variable",
+        "kind": 5,
+        "importPath": "printstringwithnum",
+        "description": "printstringwithnum",
+        "peekOfCode": "string_variable = \"Number: \"\nnumber = 100\nprint(string_variable + str(number))",
+        "detail": "printstringwithnum",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "printstringwithnum",
+        "description": "printstringwithnum",
+        "peekOfCode": "number = 100\nprint(string_variable + str(number))",
+        "detail": "printstringwithnum",
+        "documentation": {}
+    }
+]
