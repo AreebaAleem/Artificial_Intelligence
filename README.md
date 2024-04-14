@@ -1,4 +1,4 @@
-# Artificial Intelligence Repository
+# Introduction 
 
 Welcome to the Artificial Intelligence Repository! This repository contains a collection of Python code implementations for various AI problems, algorithms, and techniques. Whether you're a beginner looking to learn the basics or an experienced practitioner seeking to explore advanced topics, you'll find something useful here.
 
